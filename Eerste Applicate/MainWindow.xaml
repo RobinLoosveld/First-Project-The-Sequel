@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Eerste_Applicate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="450">
     <Grid>
+        <Button x:Name="btnHello" Content="Button" HorizontalAlignment="Left" Margin="202,223,0,0" VerticalAlignment="Top" Click="btnHello_Click"/>
+        <Label x:Name="lblWorld"  HorizontalAlignment="Left" Margin="202,171,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

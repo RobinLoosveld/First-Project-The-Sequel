@@ -24,5 +24,10 @@ namespace Eerste_Applicate
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblWorld.Content = "Hello World!!!";
+        }
     }
 }
