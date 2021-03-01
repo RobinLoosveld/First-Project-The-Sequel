@@ -24,10 +24,19 @@ namespace Eerste_Applicate
         {
             InitializeComponent();
         }
+        int teller = 0;
+
 
         private void btnHello_Click(object sender, RoutedEventArgs e)
         {
             lblWorld.Content = "Hello World!!!";
+        }
+
+        private void btnHello_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+            teller++;
+            lblWorld_Copy.Content = teller.ToString();
         }
     }
 }
