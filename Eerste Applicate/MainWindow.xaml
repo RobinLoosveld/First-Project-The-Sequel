@@ -5,12 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Eerste_Applicate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="450">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnHello" Content="Button" HorizontalAlignment="Left" Margin="138,223,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblWorld"   HorizontalAlignment="Left" Margin="138,171,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnHello_Copy" Content="Button" HorizontalAlignment="Left" Margin="263,223,0,0" VerticalAlignment="Top" Click="btnHello_Copy_Click"/>
-        <Label x:Name="lblWorld_Copy"   HorizontalAlignment="Left" Margin="262,171,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnHello" Content="Button" HorizontalAlignment="Left" Margin="202,223,0,0" VerticalAlignment="Top" Click="btnHello_Click"/>
+        <Label x:Name="lblWorld"  HorizontalAlignment="Left" Margin="202,171,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
